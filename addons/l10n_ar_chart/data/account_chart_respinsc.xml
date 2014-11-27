@@ -573,6 +573,7 @@
             <field name="user_type" ref="account.data_account_type_payable"/>
             <field name="name">Proveedores</field>
             <field name="parent_id" ref="ri_deudas_comerciales"/>
+	    <field name="reconcile">True</field>
         </record>
 
         <record model="account.account.template" id="ri_anticipos_de_clientes">
